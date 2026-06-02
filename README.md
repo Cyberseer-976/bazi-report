@@ -46,6 +46,15 @@ git clone https://github.com/Cyberseer-976/bazi-report.git ~/.claude/skills/bazi
 git clone https://github.com/Cyberseer-976/bazi-report.git .claude/skills/bazi-report
 ```
 
+> 💡 **多平台用户**：此 SKILL.md 符合 [Agent Skills](https://dev.to/nathanielc85523/skillmd-goes-multi-ecosystem-how-the-agent-skills-standard-jumped-from-anthropic-to-openai-and-3oeg) 跨平台标准，同样可用于 Cursor、GitHub Copilot、Codex CLI、Gemini CLI、Windsurf 等。安装到 `.agents/skills/` 即可被 5+ 个平台同时识别。
+>
+> ```bash
+> # 跨平台安装（Claude Code 除外）
+> git clone https://github.com/Cyberseer-976/bazi-report.git ~/.agents/skills/bazi-report
+> # Claude Code 需要从 .claude/skills/ 读取，创建一个软链接即可两全
+> ln -s ~/.agents/skills/bazi-report ~/.claude/skills/bazi-report
+> ```
+
 ### 2. 安装 Python 依赖
 
 ```bash
