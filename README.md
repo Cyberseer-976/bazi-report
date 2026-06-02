@@ -39,10 +39,10 @@ This skill is a **cultural analysis and self-reflection tool**, NOT fortune-tell
 
 ```bash
 # 安装为用户级技能（所有项目可用）
-git clone https://github.com/<your-username>/bazi-report.git ~/.claude/skills/bazi-report
+git clone https://github.com/Cyberseer-976/bazi-report.git ~/.claude/skills/bazi-report
 
 # 或者安装为项目级技能（仅当前项目）
-git clone https://github.com/<your-username>/bazi-report.git .claude/skills/bazi-report
+git clone https://github.com/Cyberseer-976/bazi-report.git .claude/skills/bazi-report
 ```
 
 ### 2. 安装 Python 依赖
