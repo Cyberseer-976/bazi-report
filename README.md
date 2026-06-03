@@ -1,4 +1,4 @@
-# 四柱八字 Claude Code 技能 · Ba Zi Report Skill
+# 四柱八字 Skill · Ba Zi Report Skill
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue)](CHANGELOG.md)
 [![Python](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
